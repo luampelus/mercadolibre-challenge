@@ -5,6 +5,7 @@ export default extendTheme({
     global: {
       body: {
         color: "blackAlpha.900",
+        backgroundColor: "#EDEDED"
       },
     },
   },
@@ -20,6 +21,7 @@ export default extendTheme({
       700: "#CCC147",
       800: "#BFB543",
       900: "#BFB543",
+      1000: "#FDE500"
     },
     secondary: {
       ...theme.colors.messenger,

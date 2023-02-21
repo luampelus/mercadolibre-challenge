@@ -3,19 +3,19 @@ import {Product} from "./types";
 export default {
   get product(): Product {
     return {
-      id: "MLA741093357",
+      id: "MLA1347525253",
       site_id: "MLA",
-      title: "Peluche Stitch Angel Lilo 1 Metro 100cm Reales Gigante",
+      title: "Caja De Cartón Ecommerce N°2 (19x16,3x12) X 100 Unidades",
       subtitle: null,
-      seller_id: 298424621,
-      category_id: "MLA1166",
-      official_store_id: null,
-      price: 13999,
-      base_price: 13999,
+      seller_id: null,
+      category_id: "MLA405115",
+      official_store_id: "1593",
+      price: 10784,
+      base_price: 10784,
       original_price: null,
       currency_id: "ARS",
       initial_quantity: 76,
-      available_quantity: 1,
+      available_quantity: 14,
       sold_quantity: 50,
       sale_terms: [],
       buying_mode: "buy_it_now",
@@ -24,41 +24,41 @@ export default {
       stop_time: "2038-07-29T04:00:00.000Z",
       condition: "new",
       permalink:
-        "https://articulo.mercadolibre.com.ar/MLA-741093357-peluche-stitch-angel-lilo-1-metro-100cm-reales-gigante-_JM",
-      thumbnail_id: "978173-MLA32582347639_102019",
-      thumbnail: "http://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg",
-      secure_thumbnail: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg",
+        "https://articulo.mercadolibre.com.ar/MLA-1347525253-caja-de-carton-ecommerce-n2-19x163x12-x-100-unidades-_JM#position=1&search_layout=stack&type=item&tracking_id=2a7da622-a6bf-4a53-b3a3-a980fd90f954",
+      thumbnail_id: "843321-MLA31265305410_062019",
+      thumbnail: "http://http2.mlstatic.com/D_Q_NP_843321-MLA31265305410_062019-R.webp",
+      secure_thumbnail: "https://http2.mlstatic.com/D_Q_NP_843321-MLA31265305410_062019-R.webp",
       pictures: [
         {
-          id: "978173-MLA32582347639_102019",
-          url: "http://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
-          size: "500x496",
+          id: "843321-MLA31265305410_062019",
+          url: "http://http2.mlstatic.com/D_NQ_NP_843321-MLA31265305410_062019-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_843321-MLA31265305410_062019-O.webp",
+          size: "500x333",
           max_size: "1200x1192",
           quality: "",
         },
         {
-          id: "754004-MLA32299823528_092019",
-          url: "http://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
-          size: "500x396",
-          max_size: "1200x951",
+          id: "714350-MLA31265387545_062019",
+          url: "http://http2.mlstatic.com/D_NQ_NP_714350-MLA31265387545_062019-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_714350-MLA31265387545_062019-O.webp",
+          size: "500x333",
+          max_size: "1200x1192",
           quality: "",
         },
         {
-          id: "616691-MLA27900381255_082018",
-          url: "http://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
-          size: "500x500",
-          max_size: "800x800",
+          id: "822631-MLA31265281967_062019",
+          url: "http://http2.mlstatic.com/D_NQ_NP_822631-MLA31265281967_062019-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_822631-MLA31265281967_062019-O.webp",
+          size: "500x333",
+          max_size: "1200x1192",
           quality: "",
         },
         {
-          id: "918230-MLA31424182281_072019",
-          url: "http://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
-          size: "281x500",
-          max_size: "1080x1920",
+          id: "727566-MLA31265365641_062019",
+          url: "http://http2.mlstatic.com/D_NQ_NP_727566-MLA31265365641_062019-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_727566-MLA31265365641_062019-O.webp",
+          size: "500x333",
+          max_size: "1200x1192",
           quality: "",
         },
       ],
@@ -66,6 +66,42 @@ export default {
       descriptions: [
         {
           id: "MLA741093357-1768858232",
+          text: `Material 100% reciclado y reciclable.
+          Cartón corrugado onda C, 4 mm de espesor.
+          100 cajas eCommerce N°2 en caja contenedora.
+          
+          Medidas internas: 190 mm de largo, 163 mm de ancho, 120 mm de alto.
+          Peso máximo recomendado del contenido: 4 kg.*
+          Apilado máximo recomendado: 5 cajas.*
+          Certificación FSC.
+          
+          Ideal para envíos de elementos pequeños: electrónica chica, accesorios cámaras, juguetes pequeños, etc.
+          En caso de que el producto sea más pequeño que la caja, contemplar colocar relleno para su protección.
+          
+          Resguardarlas de líquidos y humedad.
+          
+          Este producto está disponible únicamente a través de MERCADO ENVÍOS, no puede ser enviado ni adquirido por otro medio.
+          
+          Envíos a todo el país.
+          Stock Permanente.
+          
+          *Tanto el peso como el apilado máximo, dependen del tipo de producto que vaya a contener la caja, en caso de duda consultar.
+          IMPORTANTE:
+          Estos productos han sido fabricados bajo especificaciones de Mercado Libre.
+          Excluya de su interior elementos cortantes o punzantes sin protección que puedan dañar la caja.
+          No arrojar en la vía pública.
+          
+          FACTURACIÓN:
+          El producto será facturado una vez que haya sido confirmada la entrega, por favor asegúrese que su usuario tenga todos los datos correctamente cargados:
+          CUIT, Razón social, y domicilio fiscal.
+          En caso contrario será facturado a consumidor final.
+          La factura electrónica le será remitida vía mail o mensaje privado.
+          Ante cualquier duda no deje de consultarnos.
+          
+          ENVÍOS:
+          El producto será entregado en el domicilio cargado en su usuario. Por favor asegúrese que el mismo este actualizado y vigente, con todos los datos requeridos para evitar retrasos en la entrega de su producto.
+          Las compras realizadas de Lunes a Viernes antes de las 13 horas, serán despachadas el mismo día.
+          En caso de compras realizadas fuera de esos días y horarios, el despacho se realizará el siguiente día hábil.`
         },
       ],
       accepts_mercadopago: true,
@@ -94,7 +130,7 @@ export default {
       seller_address: {
         city: {
           id: "TUxBQlZJTDE2MDBa",
-          name: "Villa Pueyrredón",
+          name: "Villa Devoto",
         },
         state: {
           id: "AR-C",
@@ -107,7 +143,7 @@ export default {
         search_location: {
           neighborhood: {
             id: "TUxBQlZJTDE2MDBa",
-            name: "Villa Pueyrredón",
+            name: "Villa Devoto",
           },
           city: {
             id: "TUxBQ0NBUGZlZG1sYQ",
@@ -125,21 +161,21 @@ export default {
       coverage_areas: [],
       attributes: [
         {
-          id: "MAX_RECOMMENDED_AGE",
-          name: "Edad máxima recomendada",
+          id: "ALT_ANCH_PROF",
+          name: "Altura x Ancho x Profundidad",
           value_id: null,
-          value_name: "99 años",
+          value_name: "12 cm x 16.3 cm x 19 cm",
           value_struct: {
-            number: 99,
-            unit: "años",
+            number: 12,
+            unit: "cm",
           },
           values: [
             {
               id: null,
-              name: "99 años",
+              name: "12 cm x 16.3 cm x 19 cm",
               struct: {
-                number: 99,
-                unit: "años",
+                number: 12,
+                unit: "cm",
               },
             },
           ],
@@ -147,31 +183,15 @@ export default {
           attribute_group_name: "",
         },
         {
-          id: "PRODUCT_TYPE",
-          name: "Tipo de producto",
+          id: "MATERIAL",
+          name: "Material",
           value_id: null,
-          value_name: "peluche",
+          value_name: "Cartón corrugado",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "peluche",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "",
-          attribute_group_name: "",
-        },
-        {
-          id: "ANIMAL",
-          name: "Animal",
-          value_id: null,
-          value_name: "stitch",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "stitch",
+              name: "Cartón corrugado",
               struct: null,
             },
           ],
@@ -182,12 +202,12 @@ export default {
           id: "BRAND",
           name: "Marca",
           value_id: "33243",
-          value_name: "Disney",
+          value_name: "Mercado Libre",
           value_struct: null,
           values: [
             {
               id: "33243",
-              name: "Disney",
+              name: "Mercado Libre",
               struct: null,
             },
           ],
@@ -195,31 +215,15 @@ export default {
           attribute_group_name: "Otros",
         },
         {
-          id: "CHARACTER",
-          name: "Personaje",
-          value_id: "4959202",
-          value_name: "Stitch",
-          value_struct: null,
-          values: [
-            {
-              id: "4959202",
-              name: "Stitch",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "FRANCHISE",
-          name: "Franquicia",
+          id: "CANT",
+          name: "Cantidad de unidades",
           value_id: null,
-          value_name: "Stitch",
+          value_name: "100",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "Stitch",
+              name: "100",
               struct: null,
             },
           ],
@@ -227,162 +231,16 @@ export default {
           attribute_group_name: "Otros",
         },
         {
-          id: "GTIN",
-          name: "Código universal de producto",
+          id: "FABRICANTE",
+          name: "FABRICANTE",
           value_id: null,
-          value_name: "8480017059031",
+          value_name: "#N/A",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "8480017059031",
+              name: "#N/A",
               struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "HEIGHT",
-          name: "Altura",
-          value_id: null,
-          value_name: "100 cm",
-          value_struct: {
-            number: 100,
-            unit: "cm",
-          },
-          values: [
-            {
-              id: null,
-              name: "100 cm",
-              struct: {
-                number: 100,
-                unit: "cm",
-              },
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "IS_HYPOALLERGENIC_MATERIAL",
-          name: "Es material hipoalergénico",
-          value_id: "242085",
-          value_name: "Sí",
-          value_struct: null,
-          values: [
-            {
-              id: "242085",
-              name: "Sí",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "ITEM_CONDITION",
-          name: "Condición del ítem",
-          value_id: "2230284",
-          value_name: "Nuevo",
-          value_struct: null,
-          values: [
-            {
-              id: "2230284",
-              name: "Nuevo",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "MATERIAL",
-          name: "Material",
-          value_id: "462324",
-          value_name: "Plush",
-          value_struct: null,
-          values: [
-            {
-              id: "462324",
-              name: "Plush",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "MIN_RECOMMENDED_AGE",
-          name: "Edad mínima recomendada",
-          value_id: null,
-          value_name: "0 años",
-          value_struct: {
-            number: 0,
-            unit: "años",
-          },
-          values: [
-            {
-              id: null,
-              name: "0 años",
-              struct: {
-                number: 0,
-                unit: "años",
-              },
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "MODEL",
-          name: "Modelo",
-          value_id: null,
-          value_name: "Stitch",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "Stitch",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "SELLER_SKU",
-          name: "SKU",
-          value_id: null,
-          value_name: "1metro",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "1metro",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "WIDTH",
-          name: "Ancho",
-          value_id: null,
-          value_name: "50 cm",
-          value_struct: {
-            number: 50,
-            unit: "cm",
-          },
-          values: [
-            {
-              id: null,
-              name: "50 cm",
-              struct: {
-                number: 50,
-                unit: "cm",
-              },
             },
           ],
           attribute_group_id: "OTHERS",
