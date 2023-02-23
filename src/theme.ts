@@ -5,7 +5,7 @@ export default extendTheme({
     global: {
       body: {
         color: "blackAlpha.900",
-        backgroundColor: "#EDEDED"
+        bg: "#b2d9d6"
       },
     },
   },
@@ -38,8 +38,8 @@ export default extendTheme({
     },
   },
   fonts: {
-    body: "Proxima Nova",
-    heading: "Proxima Nova",
+    body: "Airbnb Cereal",
+    heading: "Airbnb Cereal",
   },
   components: {
     Link: {
