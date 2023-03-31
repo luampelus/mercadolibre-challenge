@@ -44,6 +44,7 @@ export const Payments = () => {
                 p={4}
                 borderBottomEndRadius="8px"
                 borderBottomStartRadius="8px"
+                mb={4}
             >
                 <Text fontSize="18px" py={4}>
                     Medios de pago

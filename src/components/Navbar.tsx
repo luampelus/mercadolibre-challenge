@@ -17,7 +17,7 @@ import {BsCart2} from "react-icons/bs";
 import {Menu, MenuButton, MenuList, MenuItem, MenuGroup} from "@chakra-ui/react";
 
 import logo from "../assets/logo.png";
-import disneypromo from "../assets/disneypromo.webp";
+import disneypromo from "../assets/disneypromo.jpg";
 import Routes from "../app/routes";
 
 const Navbar = () => {

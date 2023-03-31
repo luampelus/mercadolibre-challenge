@@ -1,72 +1,86 @@
 import React from "react";
-import {Text, Stack, StackDivider} from "@chakra-ui/react";
+import { Box, Text, Stack, Link, color } from "@chakra-ui/react";
+import { MdChevronRight } from "react-icons/md";
 
 const FirstComponent = () => {
-  return (
-    <>
-      <Stack direction="row" fontSize="sm" padding={2}>
-        <Text>
-          <b>También puede interesarte: </b>
-        </Text>
-        <Text _hover={{cursor: "pointer"}}> peluches</Text>
-      </Stack>
-      <Stack direction="row" fontSize="sm" justifyContent="space-between" marginBottom="0.5em">
-        <Stack>
-          <Stack direction="row" divider={<StackDivider backgroundColor="blackAlpha.300" />}>
-            <Text>Volver al listado</Text>
-            <Stack alignItems="center" direction="row">
-              <Text _hover={{cursor: "pointer", color: "#2968c8"}} color="#3483fa">
-                Juegos y Juguetes
-              </Text>
-              <svg
-                className="bi bi-chevron-right"
-                fill="currentColor"
-                height="11"
-                viewBox="0 0 16 16"
-                width="11"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                  fillRule="evenodd"
-                />
-              </svg>
-              <Text _hover={{cursor: "pointer", color: "#2968c8"}} color="#3483fa">
-                Peluches
-              </Text>
-              <svg
-                className="bi bi-chevron-right"
-                fill="currentColor"
-                height="11"
-                viewBox="0 0 16 16"
-                width="11"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                  fillRule="evenodd"
-                />
-              </svg>
-              <Text _hover={{cursor: "pointer", color: "#2968c8"}} color="#3483fa">
-                Stitch
-              </Text>
+    return (
+        <Box
+            display="flex"
+            flexDir="row"
+            justifyContent="space-between"
+            py={4}
+            alignItems="flex-end"
+        >
+            <Stack gap={3}>
+                <Stack direction="row" fontSize="sm" alignItems="center">
+                    <Text
+                        float="left"
+                        margin="0 25px 0 0"
+                        position="relative"
+                        _hover={{cursor: "pointer", color:"#0078FF"}}
+                        _after={{
+                            backgroundColor: "rgba(0, 0, 0, .2)",
+                            content: '""',
+                            height: "14px",
+                            position: "absolute",
+                            right: "-16px",
+                            top: "3px",
+                            width: "1px",
+                        }}
+                    >
+                        Volver al listado
+                    </Text>
+                    <Link>Industrias y Oficinas</Link>
+                    <Text>
+                        <MdChevronRight
+                            style={{
+                                color: "RGBA(0, 0, 0, 0.36)",
+                                fontSize: "16px",
+                            }}
+                        />
+                    </Text>
+                    <Link>Embalaje y Logística</Link>
+                    <Text>
+                        <MdChevronRight
+                            style={{
+                                color: "RGBA(0, 0, 0, 0.36)",
+                                fontSize: "16px",
+                            }}
+                        />
+                    </Text>
+                    <Link>Materiales</Link>
+                    <Text>
+                        <MdChevronRight
+                            style={{
+                                color: "RGBA(0, 0, 0, 0.36)",
+                                fontSize: "16px",
+                            }}
+                        />
+                    </Text>
+                    <Link>Cajas de Embalaje</Link>
+                </Stack>
             </Stack>
-          </Stack>
-        </Stack>
-        <Stack>
-          <Stack
-            color="#3483fa"
-            direction="row"
-            divider={<StackDivider backgroundColor="blackAlpha.300" />}
-            gap={2.5}
-          >
-            <Text _hover={{cursor: "pointer", color: "#2968c8"}}>Compartir</Text>
-            <Text _hover={{cursor: "pointer", color: "#2968c8"}}>Vender uno igual</Text>
-          </Stack>
-        </Stack>
-      </Stack>
-    </>
-  );
+            <Stack direction="row" fontSize="sm">
+                <Link
+                    float="left"
+                    margin="0 25px 0 0"
+                    position="relative"
+                    _after={{
+                        backgroundColor: "rgba(0, 0, 0, .2)",
+                        content: '""',
+                        height: "14px",
+                        position: "absolute",
+                        right: "-18px",
+                        top: "3px",
+                        width: "1px",
+                    }}
+                >
+                    Compartir
+                </Link>
+                <Link>Vender uno igual</Link>
+            </Stack>
+        </Box>
+    );
 };
 
 export default FirstComponent;

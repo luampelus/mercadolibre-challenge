@@ -24,7 +24,7 @@ export const BuyNow = () => {
     const [unidades, setUnidades] = useState("1 unidad");
     const [corazon, setCorazon] = useState(false);
     return (
-        <Box border="1px solid RGBA(0, 0, 0, 0.08)" borderRadius="8px" p={4}>
+        <Box border="1px solid RGBA(0, 0, 0, 0.08)" borderRadius="8px" p={4} marginTop={4}>
             <Stack>
                 <Stack
                     direction="row"
