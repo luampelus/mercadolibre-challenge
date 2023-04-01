@@ -11,11 +11,11 @@ export const QuestionComponent = ({change}: Prop) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const value = ref.current?.value;
+    const value = ref.current?.value as string;
     const condition = value !== undefined;
 
     if (condition) {
-      if (value!.trim().length > 2) {
+      if (value.trim().length > 2) {
         change(value);
         ref.current!.value = "";
       }
