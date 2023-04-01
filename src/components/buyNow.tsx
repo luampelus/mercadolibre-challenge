@@ -51,7 +51,7 @@ export const BuyNow = () => {
                     <Text>50 vendidos</Text>
                 </Stack>
                 <Stack direction="row">
-                    <Heading fontSize="22px">Caja De Cartón Ecommerce N°2 (19x16,3x12) X 100 Unidades</Heading>
+                    <Heading fontSize="22px">Taza Logo Mercado Libre 250 Cc</Heading>
                     <Stack userSelect="none">
                     {corazon ? (
                     <AiOutlineHeart
@@ -79,12 +79,12 @@ export const BuyNow = () => {
                 <Box mt={2}>
                     <Text fontSize="36px" fontWeight="300">
                         ${" "}
-                        {10784
+                        {1799
                             .toString()
                             .replace(/\B(?=(\d{3})+(?!\d))/g, ".")}{" "}
                     </Text>
                     <Text fontSize="18px" mt="-10px">
-                        en 6x $ 2.666
+                        en 3x $ 599
                     </Text>
                     <Link fontSize="sm">Ver los medios de pago</Link>
                 </Box>

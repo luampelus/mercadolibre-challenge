@@ -42,17 +42,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="gorra"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_827356-MLA44646536101_012021-AB.webp"}
+                  src={"https://i.ibb.co/zG5pzxb/meli-gorra.png"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $13.200
+                    $2.999
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Peluche Stich 80cm Sentado Lilo Disney Importado
+                  Gorra Logo Mercado Libre Bordada 
                   </Text>
                 </Box>
               </Stack>
@@ -68,17 +68,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="remera"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_600144-MLA49547774253_042022-AB.webp"}
+                  src={"https://i.ibb.co/J5D0wQw/meli-remera.png" }
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $3.190
+                    $4.900
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Peluche Stitch 30cm Importado Lilo Y Stitch Hermosos Suaves
+                    Remera Logo Mercado Libre Hombre
                   </Text>
                 </Box>
               </Stack>
@@ -94,17 +94,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="botella"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_778525-MLA46397186740_062021-AB.webp"}
+                  src={"https://i.ibb.co/V9b4SrF/botella-meli.png"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $1.1150
+                    $2.700
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Peluche Stitch 20cm Importado Lilo Y Stitch Hermosos
+                  Botella Logo Mercado Libre Metálica Aluminio Tapa Rosca 800cc
                   </Text>
                 </Box>
               </Stack>
@@ -120,17 +120,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="mochila"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_603500-MLA47487564153_092021-AB.webp"}
+                  src={"https://i.ibb.co/PwBmL8T/meli-mochila.png"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $1.290
+                    $7.900
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Peluche Pokemon Varios Personajes Principales
+                    Mochila Espalda Logo Mercado Libre
                   </Text>
                 </Box>
               </Stack>
@@ -146,17 +146,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="libreta"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_958158-MLA47702833659_092021-AB.webp"}
+                  src={"https://i.ibb.co/h2Wx7mT/libreta-meli.jpg"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
                     $1.090
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Peluche Patrulla Canina Compatible Con Paw Patrol
+                    Libreta Anotador Cuaderno Logo Mercado Libre
                   </Text>
                 </Box>
               </Stack>
@@ -172,16 +172,16 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="Funda"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_960733-MLA49307498853_032022-AB.webp"}
+                  src={"https://i.ibb.co/2jqPrfj/funda-notebook.jpg"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $5.670
+                    $3.600
                   </Text>
-                  <Text margin="0em 0.6em 2em 0.6em">Peluche Oso Escandaloso 30cm Combo X3u</Text>
+                  <Text margin="0em 0.6em 2em 0.6em">Funda Para Notebook 14 Pulgadas Logo Mercado Libre</Text>
                 </Box>
               </Stack>
             </Box>
@@ -196,17 +196,17 @@ export const Carrousel = () => {
                 margin="0 0.5em 2em 0.5em"
               >
                 <Image
-                  alt="peluche"
+                  alt="moussepad"
                   borderBottom="1px solid rgba(51,51,51,.1)"
                   paddingBottom="0.25em"
-                  src={"https://http2.mlstatic.com/D_Q_NP_807710-MLA46397647037_062021-AB.webp"}
+                  src={"https://i.ibb.co/kQZDDqt/mousepad-meli.jpg"}
                 />
                 <Box>
                   <Text fontSize="1.5em" margin="0em 0.6em 0em 0.6em">
-                    $1.290
+                    $2.499
                   </Text>
                   <Text margin="0em 0.6em 2em 0.6em">
-                    Baby Yoda Peluche 20cm Importado Star Wars
+                    Moussepad Home Office Logo Mercado Libre 21x25 Cm
                   </Text>
                 </Box>
               </Stack>

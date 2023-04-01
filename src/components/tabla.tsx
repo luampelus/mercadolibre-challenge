@@ -1,30 +1,43 @@
 import React from "react";
-import {Container} from "@chakra-ui/react";
+import { Box, Grid } from "@chakra-ui/react";
 
-import {filterAtributte} from "../product/filtro";
-import data from "../product/mock";
-interface Prop {
-  name: string;
-  color: string;
-}
-export const Table = ({name, color}: Prop) => {
-  const {attributes} = data.product;
-  const {principalChars} = filterAtributte(attributes);
-
-  return (
-    <Container>
-      {principalChars.map((el) => {
-        const condition = el.name === name;
-
-        return condition ? (
-          <tr key={el.name} className={color}>
-            <th>
-              <b>{el.name}</b>
-            </th>
-            <td>{el.value}</td>
-          </tr>
-        ) : null;
-      })}
-    </Container>
-  );
+const Table = () => {
+    return (
+        <Box my={8}>
+            <Grid templateColumns="1fr 3fr" fontSize="16px">
+                <Box bgColor="#EBEBEB" p={4} fontWeight={600}>
+                    Marca
+                </Box>
+                <Box bgColor="#F5F5F5" p={4}>
+                    Mercado Libre
+                </Box>
+                <Box bgColor="#F5F5F5" p={5} fontWeight={600}>
+                    Fabricante
+                </Box>
+                <Box bgColor="#FFFFFF" p={4}>
+                    #N/A
+                </Box>
+                <Box bgColor="#EBEBEB" p={5} fontWeight={600}>
+                    Modelo
+                </Box>
+                <Box bgColor="#F5F5F5" p={4}>
+                    Taza Logo Mercado Libre
+                </Box>
+                <Box bgColor="#F5F5F5" p={5} fontWeight={600}>
+                    Unidades por pack
+                </Box>
+                <Box bgColor="#FFFFFF" p={4}>
+                    1
+                </Box>
+                <Box bgColor="#EBEBEB" p={5} fontWeight={600}>
+                    Capacidad en volumen
+                </Box>
+                <Box bgColor="#F5F5F5" p={4}>
+                    250 Cc
+                </Box>
+            </Grid>
+        </Box>
+    );
 };
+
+export default Table;

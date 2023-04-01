@@ -5,7 +5,7 @@ interface Prop {
   img: string;
   changeSelect: (name: string) => void;
 }
-/*para que cambie segun la seleccion de la galeria*/
+
 export const BigImage = ({img, changeSelect}: Prop) => {
   const refImg = useRef<HTMLImageElement>(null);
 
@@ -22,7 +22,6 @@ export const BigImage = ({img, changeSelect}: Prop) => {
         borderRadius="4px"
         cursor="pointer"
         height="50px"
-        /*2px solid #3483fa hover an click*/
         id="border"
         margin-bottom="8px"
         width="50px"

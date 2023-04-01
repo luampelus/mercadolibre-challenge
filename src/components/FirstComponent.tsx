@@ -30,7 +30,7 @@ const FirstComponent = () => {
                     >
                         Volver al listado
                     </Text>
-                    <Link>Industrias y Oficinas</Link>
+                    <Link>Hogar, Muebles y Jardín</Link>
                     <Text>
                         <MdChevronRight
                             style={{
@@ -39,7 +39,7 @@ const FirstComponent = () => {
                             }}
                         />
                     </Text>
-                    <Link>Embalaje y Logística</Link>
+                    <Link>Bazar y Cocina</Link>
                     <Text>
                         <MdChevronRight
                             style={{
@@ -48,7 +48,7 @@ const FirstComponent = () => {
                             }}
                         />
                     </Text>
-                    <Link>Materiales</Link>
+                    <Link>Vajilla y Artículos de Servir</Link>
                     <Text>
                         <MdChevronRight
                             style={{
@@ -57,7 +57,16 @@ const FirstComponent = () => {
                             }}
                         />
                     </Text>
-                    <Link>Cajas de Embalaje</Link>
+                    <Link>Vajilla</Link>
+                    <Text>
+                        <MdChevronRight
+                            style={{
+                                color: "RGBA(0, 0, 0, 0.36)",
+                                fontSize: "16px",
+                            }}
+                        />
+                    </Text>
+                    <Link>Tazas</Link>
                 </Stack>
             </Stack>
             <Stack direction="row" fontSize="sm">

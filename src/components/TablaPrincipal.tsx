@@ -1,46 +1,30 @@
+import { Box, Grid, Heading, Stack, Text } from "@chakra-ui/react";
 import React from "react";
-import {Container} from "@chakra-ui/react";
-
-import {Table} from "./tabla";
-import {container, table, dark, light, otros, principales, otrascarac} from "./style.module.css";
+import Table from "./tabla";
 
 export const TablaPrincipal = () => {
   return (
-    <Container className={container} maxWidth="718px">
-      <h2 className={principales}>Características principales</h2>
-      <table className={table}>
-        <tbody>
-          <Table color={dark} name="Marca" />
-
-          <Table color={light} name="Modelo" />
-
-          <Table color={dark} name="Franquicia" />
-
-          <Table color={light} name="Animal" />
-
-          <Table color={dark} name="Personaje" />
-        </tbody>
-      </table>
-
-      <p className={otrascarac}>Otras características</p>
-      <div>
-        <div className={otros}>
-          <p>
-            <span>Material: </span>
-            Plush
-          </p>
-          <p>
-            <span>Altura x Ancho: </span>
-            100 cm x 50 cm
-          </p>
-        </div>
-        <p>
-          <span>
-            <b>Es material hipoalergénico: </b>
-          </span>
-          No
-        </p>
-      </div>
-    </Container>
-  );
+    <>
+        <Box m={8} paddingLeft={2}>
+            <Heading fontWeight={400} fontSize="24px">
+                Características principales
+            </Heading>
+            <Table />
+            <Heading fontWeight={400} fontSize="18px">
+                Otras características
+            </Heading>
+            <Grid templateColumns="1fr 1fr" my={6} fontSize="sm">
+                <Stack>
+                    <Text fontWeight={600}>
+                        Material:{" "}
+                        <Text as="span" fontWeight={400}>
+                          Cerámica
+                        </Text>
+                    </Text>
+                </Stack>
+            </Grid>
+        </Box>
+        
+    </>
+);
 };

@@ -18,7 +18,7 @@ const HomeScreen: React.FC = () => {
         <Stack
           backgroundColor="white"
           borderRadius="7px"
-          divider={<StackDivider backgroundColor="blackAlpha.300" marginLeft="3em !important" />}
+          divider={<StackDivider backgroundColor="blackAlpha.300" marginLeft="2em !important" />}
           id="izquierda"
           maxWidth="770px"
         >

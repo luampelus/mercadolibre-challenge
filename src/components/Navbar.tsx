@@ -209,7 +209,7 @@ const Navbar = () => {
                           Salud y Equipamento Médico
                         </MenuItem>
                         <MenuItem _hover={{bg: "#3483fa"}} paddingLeft="2em">
-                          Industrias y Oficinas
+                          Hogar, Muebles y Jardín
                         </MenuItem>
                         <MenuItem _hover={{bg: "#3483fa"}} paddingLeft="2em">
                           Agro

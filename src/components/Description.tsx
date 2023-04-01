@@ -5,9 +5,9 @@ import {p} from "./style.module.css";
 import {QuestionComponent} from "./QuestionComponent";
 
 const initialState = [
-  "Hola, tenés en rosa ??",
-  "Hola Lo puedo a pasar a buscar hoy?",
-  "Es exactamente como en la foto? Los ojos son diferentes en otras publicaciones.",
+  "Buenas noches! Es sublimado o pintado?",
+  "Tenés stock y envío a cba capital??",
+  "Hola buenas tardes !! son originales? tienen en color negro?",
 ];
 
 export const Description = () => {
@@ -22,36 +22,18 @@ export const Description = () => {
       <Box fontSize="1.4em" fontWeight="400" paddingBottom="26px" paddingTop="40px">
         Descripción
       </Box>
-      <Box color="666" fontSize="20px" fontWeight="400">
-        Material 100% reciclado y reciclable.
-        <br /> Cartón corrugado onda C, 4 mm de espesor.
+      <Box color="666" fontSize="20px" fontWeight="300">
+        TAZA DE CERAMICA CON LOGO MERCADO LIBRE.
+        <br /> CAPACIDAD : 250 CC
         <br />
-        100 cajas eCommerce N°2 en caja contenedora.
-        <br />
-        <br /> Medidas internas: 190 mm de largo, 163 mm de ancho, 120 mm de alto.
-        <br />
-        Peso máximo recomendado del contenido: 4 kg.*<br /> Apilado máximo recomendado: 5 cajas.*
-        <br /> Certificación FSC.
-        <br /> <br />
-        Ideal para envíos de elementos pequeños: electrónica chica, accesorios cámaras, juguetes pequeños, etc.
-        <br />
-        En caso de que el producto sea más pequeño que la caja, contemplar colocar relleno para su protección.
-        <br />
-        <br/>
-        Resguardarlas de líquidos y humedad.<br />
         <br />Este producto está disponible únicamente a través de MERCADO ENVÍOS, no puede ser enviado ni adquirido por otro medio.
         <br /><br/>Envíos a todo el país.
         <br />
         Stock Permanente.
         <br />
         <br />
-        *Tanto el peso como el apilado máximo, dependen del tipo de producto que vaya a contener la caja, en caso de duda consultar.
-        <br />
         IMPORTANTE:<br />
-        Estos productos han sido fabricados bajo especificaciones de Mercado Libre.<br />
-        Excluya de su interior elementos cortantes o punzantes sin protección que puedan dañar la caja.
-        No arrojar en la vía pública.<br /><br />
-
+        Estos productos han sido fabricados bajo especificaciones de Mercado Libre.<br /><br />
         FACTURACIÓN:<br />
         El producto será facturado una vez que haya sido confirmada la entrega, por favor asegúrese que su usuario tenga todos los datos correctamente cargados:<br />
         CUIT, Razón social, y domicilio fiscal.<br />

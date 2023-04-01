@@ -24,7 +24,7 @@ export const Opinions = () => {
   return (
     <Container marginTop="2em" maxWidth="718px">
       <Box color="#333" fontSize="24px" fontWeight="400" paddingTop="14px">
-        Opiniones sobre Peluche Stitch Angel Lilo 1 Metro 100cm Reales Gigante
+        Opiniones sobre Taza Logo Mercado Libre 250 Cc
         <Container>
           <Box display="flex">
             <Box width="55%">
@@ -285,9 +285,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Hermoso para regalar junto a angel. buena calidad</b>
-                      <br />
-                      Hermoso. Muy buena calidad. Se nota que es original.
+                    Muy buena calidad. Recibimos todo en perfecta condición. Y súper rápido. Lo recomendamos al 100 %.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em" userSelect="none">
@@ -297,7 +295,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlike(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -307,7 +305,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlike(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -320,7 +318,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislike(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -330,7 +328,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislike(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -339,9 +337,7 @@ export const Opinions = () => {
                       </Flex>
                     </Box>
                   </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 8 meses
-                  </Box>
+                
                 </Box>
                 <Box display="flex">
                   <Box>
@@ -424,9 +420,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Excelente</b>
-                      <br />
-                      Es de excelente calidad. Súper recomendable.
+                    Hermosa. La compré especialmente para el microondas. La uso todos los días para desayunar.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em" userSelect="none">
@@ -436,7 +430,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setliketwo(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -446,7 +440,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setliketwo(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -459,7 +453,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdisliketwo(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -469,7 +463,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdisliketwo(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -478,9 +472,7 @@ export const Opinions = () => {
                       </Flex>
                     </Box>
                   </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 5 meses
-                  </Box>
+                 
                 </Box>
                 <Box display="flex">
                   <Box>
@@ -563,9 +555,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Excelente</b>
-                      <br />
-                      Muy buen producto exelente calidad.
+                    Muy buen producto. Muy conforme con la compra.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em" userSelect="none">
@@ -575,7 +565,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlikethree(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -585,7 +575,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlikethree(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -598,7 +588,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislikethree(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -608,7 +598,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislikethree(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -617,9 +607,7 @@ export const Opinions = () => {
                       </Flex>
                     </Box>
                   </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 3 meses
-                  </Box>
+                  
                 </Box>
               </Stack>
             </TabPanel>
@@ -706,9 +694,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Hermoso para regalar junto a angel. buena calidad</b>
-                      <br />
-                      Hermoso. Muy buena calidad. Se nota que es original.
+                    Muy buena calidad. Recibimos todo en perfecta condición. Y súper rápido. Lo recomendamos al 100 %.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em">
@@ -718,7 +704,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlike(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -728,7 +714,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlike(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -741,7 +727,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislike(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -751,7 +737,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislike(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -760,9 +746,7 @@ export const Opinions = () => {
                       </Flex>
                     </Box>
                   </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 8 meses
-                  </Box>
+                 
                 </Box>
                 <Box display="flex">
                   <Box>
@@ -845,9 +829,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Excelente</b>
-                      <br />
-                      Es de excelente calidad. Súper recomendable.
+                      Hermosa. La compré especialmente para el microondas. La uso todos los días para desayunar.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em">
@@ -857,7 +839,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setliketwo(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -867,7 +849,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setliketwo(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -880,7 +862,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdisliketwo(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -890,7 +872,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdisliketwo(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -899,9 +881,7 @@ export const Opinions = () => {
                       </Flex>
                     </Box>
                   </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 5 meses
-                  </Box>
+                 
                 </Box>
                 <Box display="flex">
                   <Box>
@@ -984,9 +964,7 @@ export const Opinions = () => {
                       </svg>
                     </Box>
                     <Box marginTop="0.6em">
-                      <b>Excelente</b>
-                      <br />
-                      Muy buen producto exelente calidad.
+                    Muy buen producto. Muy conforme con la compra.
                     </Box>
                     <Box alignItems="center" display="flex">
                       <Flex alignItems="center" marginRight="2em">
@@ -996,7 +974,7 @@ export const Opinions = () => {
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
                               height="22px"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlikethree(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -1006,7 +984,7 @@ export const Opinions = () => {
                             <AiOutlineLike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setlikethree(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -1019,7 +997,7 @@ export const Opinions = () => {
                             <AiFillDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislikethree(false)}
                             />
                             <Box marginLeft="10px">1</Box>
@@ -1029,7 +1007,7 @@ export const Opinions = () => {
                             <AiOutlineDislike
                               color={"rgba(0,0,0,.9"}
                               cursor="pointer"
-                              size={"1.7rem"}
+                              size={"1.2rem"}
                               onClick={() => setdislikethree(true)}
                             />
                             <Box marginLeft="10px">0</Box>
@@ -1037,9 +1015,6 @@ export const Opinions = () => {
                         )}
                       </Flex>
                     </Box>
-                  </Box>
-                  <Box color="rgba(0,0,0,.55)" marginTop="4.6em" paddingLeft="12px">
-                    Hace 3 meses
                   </Box>
                 </Box>
               </Stack>
@@ -1054,7 +1029,7 @@ export const Opinions = () => {
             </TabPanel>
           </TabPanels>
         </Tabs>
-        <Box color="#5B8DFA" fontSize="sm" marginTop="1.5">
+        <Box color="#296DCB" cursor="pointer" fontSize="sm" marginTop="1.5">
           Ver todas las opiniones
         </Box>
       </Box>
