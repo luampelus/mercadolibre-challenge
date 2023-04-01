@@ -38,8 +38,8 @@ export default extendTheme({
     },
   },
   fonts: {
-    body: "Airbnb Cereal",
-    heading: "Airbnb Cereal",
+    body: "Proxima Nova",
+    heading: "Proxima Nova",
   },
   components: {
     Link: {
