@@ -1,7 +1,7 @@
 import {FiChevronDown} from "react-icons/fi";
 import React, {useState} from "react";
 
-import "./style.module.css";
+import {dropdown, dropdownBtn, dropdownContent, dropdownItem} from "./style.module.css";
 
 interface Prop {
   selected: any;
@@ -13,13 +13,13 @@ const Dropdown: React.FC<Prop> = ({selected, setSelected}) => {
   const options = ["1 unidad", "2 unidades", "3 unidades", "4 unidades", "5 unidades"];
 
   return (
-    <div className="dropdown">
-      <div className="dropdownBtn" onClick={() => setIsActive(!isActive)}>
+    <div className={dropdown}>
+      <div className={dropdownBtn} onClick={() => setIsActive(!isActive)}>
         {selected}
         <FiChevronDown />
       </div>
       {isActive && (
-        <div className="dropdownContent">
+        <div className={dropdownContent}>
           {options.map((option) => (
             // eslint-disable-next-line react/jsx-key
             <div
