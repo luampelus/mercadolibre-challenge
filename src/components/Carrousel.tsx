@@ -5,24 +5,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import {Navigation} from "swiper";
 
-import {swipperBtnPrev, swipperBtnNext, swipper, containerSwiper} from "./style.module.css";
+import styles from "./style.module.css";
 
 export const Carrousel = () => {
   useEffect(() => {
     const prevBtn = document.querySelector(".swiper-button-prev");
     const nextBtn = document.querySelector(".swiper-button-next");
 
-    prevBtn?.classList.add(swipperBtnPrev);
-    nextBtn?.classList.add(swipperBtnNext);
+    prevBtn?.classList.add(styles.swipperBtnPrev);
+    nextBtn?.classList.add(styles.swipperBtnNext);
   }, []);
 
   return (
-    <Container className={containerSwiper} maxW="55em" width="90%" zIndex="0">
+    <Container className={styles.containerSwiper} maxW="55em" width="90%" zIndex="0">
       <Box fontSize="1.5em" marginBottom="0.7em" marginTop="1em">
         Publicaciones del vendedor
       </Box>
       <Swiper
-        className={swipper}
+        className={styles.swipper}
         loop={true}
         modules={[Navigation]}
         navigation={true}

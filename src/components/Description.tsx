@@ -1,7 +1,7 @@
 import {Container, Box, Button, Wrap, Stack} from "@chakra-ui/react";
 import React, {useState} from "react";
 
-import {p} from "./style.module.css";
+import styles from "./style.module.css";
 import {QuestionComponent} from "./QuestionComponent";
 
 const initialState = [
@@ -101,7 +101,7 @@ export const Description = () => {
           Últimas realizadas
         </Box>
         {questions.map((el, i) => (
-          <p key={i} className={p}>
+          <p key={i} className={styles.p}>
             {el}
           </p>
         ))}

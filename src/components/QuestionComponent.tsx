@@ -1,6 +1,6 @@
 import React, {useRef} from "react";
 
-import {form} from "./style.module.css";
+import styles from "./style.module.css";
 
 interface Prop {
   change: (text: string) => void;
@@ -23,7 +23,7 @@ export const QuestionComponent = ({change}: Prop) => {
   };
 
   return (
-    <form className={form} onSubmit={handleSubmit}>
+    <form className={styles.form} onSubmit={handleSubmit}>
       <textarea ref={ref} maxLength={2000} placeholder="Escribí tu pregunta..." rows={1} />
       <button type="submit">Preguntar</button>
     </form>
