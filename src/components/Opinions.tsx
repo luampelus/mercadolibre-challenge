@@ -104,7 +104,7 @@ export const Opinions = () => {
                     />
                   </svg>
                 </Box>
-                <Box fontSize="sm">Promedio entre 4 opiniones</Box>
+                <Box fontSize="sm">Promedio entre 3 opiniones</Box>
               </Box>
             </Box>
             <Box marginLeft="1.5em" paddingTop="1em" width="100%">
