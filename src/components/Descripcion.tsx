@@ -2,7 +2,7 @@ import {Container, Box, Button, Wrap, Stack} from "@chakra-ui/react";
 import React, {useState} from "react";
 
 import styles from "./style.module.css";
-import {QuestionComponent} from "./QuestionComponent";
+import {QuestionComponent} from "./Preguntas";
 
 const initialState = [
   "Buenas noches! Es sublimado o pintado?",

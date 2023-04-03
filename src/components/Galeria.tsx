@@ -5,7 +5,7 @@ import {Container} from "@chakra-ui/react";
 import get from "../product/mock";
 
 import styles from "./style.module.css";
-import {BigImage} from "./BigImage";
+import {BigImage} from "./Imagen";
 /* falta check border de la galeria*/
 
 export const PrincipalGallery = () => {
@@ -28,7 +28,7 @@ export const PrincipalGallery = () => {
         </Stack>
         <figure className={styles.figure}>
           <Image
-            alt="lilo y stitch"
+            alt="taza"
             cursor="zoom-in"
             margin="auto"
             paddingLeft="3em"

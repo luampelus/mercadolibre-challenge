@@ -1,9 +1,9 @@
 import React from "react";
 import {Container} from "@chakra-ui/react";
 
-import {BuyNow} from "./buyNow";
-import {SellerInfo} from "./sellerInfo";
-import {Payments} from "./Payments";
+import {BuyNow} from "./Comprar";
+import {SellerInfo} from "./InfoVendedor";
+import {Payments} from "./MetodosDePago";
 
 export const Sticky = () => {
   return (

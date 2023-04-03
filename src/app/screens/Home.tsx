@@ -1,13 +1,13 @@
 import React from "react";
 import {Stack, StackDivider} from "@chakra-ui/react";
 
-import FirstComponent from "../../components/FirstComponent";
+import FirstComponent from "../../components/Categorias";
 
 import {TablaPrincipal} from "./../../components/TablaPrincipal";
-import {PrincipalGallery} from "./../../components/PrincipalGallery";
+import {PrincipalGallery} from "../../components/Galeria";
 import {Carrousel} from "./../../components/Carrousel";
-import {Description} from "./../../components/Description";
-import {Opinions} from "./../../components/Opinions";
+import {Description} from "../../components/Descripcion";
+import {Opinions} from "../../components/Opiniones";
 import {Sticky} from "./../../components/sticky";
 const HomeScreen: React.FC = () => {
   return (
