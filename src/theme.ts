@@ -38,8 +38,8 @@ export default extendTheme({
     },
   },
   fonts: {
-    body: "airbnbcereal_w_ltuploadedfile",
-    heading: "airbnbcereal_w_ltuploadedfile",
+    body: "Manrope",
+    heading: "Manrope",
   },
   components: {
     Link: {
